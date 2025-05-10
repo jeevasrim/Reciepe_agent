@@ -2,7 +2,7 @@ import streamlit as st
 import cohere
 
 # Initialize Cohere client
-co = cohere.Client('cCaBb430kMioiub17v2gOo34tK21SvPi7sFYIQML')  # ⚠️ Replace with your actual API key
+co = cohere.Client('Your API Key')  # ⚠️ Replace with your actual API key
 
 # Streamlit app setup
 st.set_page_config(page_title="Recipe Generator", page_icon="🍲")
